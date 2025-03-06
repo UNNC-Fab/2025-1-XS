@@ -2,21 +2,28 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "./docs",
+  base:'/2025-1-XS',
+  title: "Fablab",
   description: "An interesting trial",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Coursework', 
+        items: [
+          { text: 'Project management', link: '/Coursework/pm.md' },
+          { text: 'CAD modeling', link: '/Coursework/cad.md' }
+        ]
+
+      }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Coursework',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Project management', link: '/Coursework/pm.md' },
+          { text: 'CAD modeling', link: '/Coursework/cad.md' }
         ]
       }
     ],

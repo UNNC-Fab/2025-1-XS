@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "./docs"
+  name: "Fablab-UNNC"
   text: "An interesting trial"
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: About me
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Research
+      link: /Research/r.md
 
 features:
   - title: Feature A
